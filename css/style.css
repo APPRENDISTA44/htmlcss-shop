@@ -1,0 +1,62 @@
+/*Reset*/
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*proprietà righe*/
+.first-row{
+  position: relative;
+}
+.second-row{
+  position: relative;
+  top:380px;
+}
+/*proprietà blocchi*/
+.first-block{
+  position:absolute;
+  width: 300px;
+  height: 372px;
+}
+.second-block{
+  position: absolute;
+  display: inline-block;
+  width: 300px;
+  height: 372px;
+  left: 310px;
+}
+.third-block{
+  position: absolute;
+  display: inline-block;
+  width: 300px;
+  height: 372px;
+  left: 620px;
+}
+/*sconti*/
+.green{
+  position: absolute;
+  right:0;
+  background-color:green;
+}
+.red{
+  position: absolute;
+  right:0;
+  background-color:red;
+}
+/*proprietà cuore*/
+.heart{
+  font-size: 20px;
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  left: 150px;
+}
+.first-block:hover .heart{
+  display: inline-block;
+}
+.second-block:hover .heart{
+  display: inline-block;
+}
+.third-block:hover .heart{
+  display: inline-block;
+}
