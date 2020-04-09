@@ -15,21 +15,13 @@
 /*proprietà blocchi*/
 .first-block{
   position:absolute;
-  width: 300px;
-  height: 372px;
 }
 .second-block{
   position: absolute;
-  display: inline-block;
-  width: 300px;
-  height: 372px;
   left: 310px;
 }
 .third-block{
   position: absolute;
-  display: inline-block;
-  width: 300px;
-  height: 372px;
   left: 620px;
 }
 /*sconti*/
