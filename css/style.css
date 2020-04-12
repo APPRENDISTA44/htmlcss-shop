@@ -52,3 +52,6 @@
 .third-block:hover .heart{
   display: inline-block;
 }
+.heart:hover{
+  color: red;
+}
