@@ -4,25 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*proprietà righe*/
-.first-row{
-  position: relative;
-}
-.second-row{
-  position: relative;
-  top:380px;
-}
 /*proprietà blocchi*/
-.first-block{
-  position:absolute;
-}
-.second-block{
-  position: absolute;
-  left: 310px;
-}
-.third-block{
-  position: absolute;
-  left: 620px;
+.block{
+  position: relative;
+  display: inline-block;
 }
 /*sconti*/
 .green{
@@ -43,13 +28,7 @@
   bottom: 10px;
   left: 150px;
 }
-.first-block:hover .heart{
-  display: inline-block;
-}
-.second-block:hover .heart{
-  display: inline-block;
-}
-.third-block:hover .heart{
+.block:hover .heart{
   display: inline-block;
 }
 .heart:hover{
